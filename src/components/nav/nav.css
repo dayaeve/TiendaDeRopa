@@ -1,0 +1,38 @@
+/* llamo la clase del nav que tengo en el html */
+
+.body__nav {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 9vh;
+  width: 100%;
+  padding: 0.2em 0;
+  top: 0;
+  background-color: var(--background-card);
+  z-index: 2; 
+  /* index es para que vaya encima de todo */
+}
+
+/* llamo la clase que tengo en el nav.js */
+.nav__ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: inherit;
+  width: 90%;
+}
+
+.nav__li {
+  font-size: 2rem;
+}
+
+.nav__img {
+  width: 8rem;
+  cursor: pointer;
+  filter: brightness(24%)
+}
+
+.nav__li>i {
+  cursor: pointer;
+}
